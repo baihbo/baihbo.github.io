@@ -28,7 +28,7 @@
 <meta property="og:description" content="Markdown 语法">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-07-09T06:09:08.000Z">
-<meta property="article:modified_time" content="2021-07-09T09:17:20.523Z">
+<meta property="article:modified_time" content="2021-07-10T15:37:30.435Z">
 <meta property="article:author" content="Bai Haobo">
 <meta property="article:tag" content="Markdown">
 <meta name="twitter:card" content="summary">
@@ -146,7 +146,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1"><span class="nav-number">1.</span> <span class="nav-text">生成目录及页面内跳转</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1"><span class="nav-number">1.</span> <span class="nav-text">标题语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-number">2.1.</span> <span class="nav-text">二级标题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2"><span class="nav-number">3.</span> <span class="nav-text">段落语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3"><span class="nav-number">4.</span> <span class="nav-text">换行语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4"><span class="nav-number">5.</span> <span class="nav-text">强调语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5"><span class="nav-number">6.</span> <span class="nav-text">引用语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6"><span class="nav-number">7.</span> <span class="nav-text">列表语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7"><span class="nav-number">8.</span> <span class="nav-text">代码语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#8"><span class="nav-number">9.</span> <span class="nav-text">分割线语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#9"><span class="nav-number">10.</span> <span class="nav-text">链接语法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2"><span class="nav-number">11.</span> <span class="nav-text">生成目录及页面内跳转</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -161,7 +161,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">18</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -172,7 +172,7 @@
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -235,10 +235,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2021-07-09 14:09:08 / 修改时间：17:17:20" itemprop="dateCreated datePublished" datetime="2021-07-09T14:09:08+08:00">2021-07-09</time>
+      <time title="创建时间：2021-07-09 14:09:08" itemprop="dateCreated datePublished" datetime="2021-07-09T14:09:08+08:00">2021-07-09</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-07-10 23:37:30" itemprop="dateModified" datetime="2021-07-10T23:37:30+08:00">2021-07-10</time>
+      </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -268,9 +274,151 @@
     
     <div class="post-body" itemprop="articleBody">
         <ul>
-<li><a href="#1">生成目录及页面内跳转</a></li>
+<li><a href="#1">标题语法</a></li>
+<li><a href="#2">段落语法</a></li>
+<li><a href="#3">换行语法</a></li>
+<li><a href="#4">强调语法</a></li>
+<li><a href="#5">引用语法</a></li>
+<li><a href="#6">列表语法</a></li>
+<li><a href="#7">代码语法</a></li>
+<li><a href="#8">分割线语法</a></li>
+<li><a href="#9">链接语法</a></li>
+<li><a href="#2">生成目录及页面内跳转</a></li>
 </ul>
-<h1 id="1">生成目录及页面内跳转</h1>
+<h1 id="1">标题语法</h1>
+
+<p>  语法</p>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题 </span><br><span class="line">## 二级标题</span><br></pre></td></tr></table></figure>
+<p>  内容</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>  几个 <code>#</code> 就是几级标题</p>
+<hr>
+<h1 id="2">段落语法</h1>
+
+<p>语法</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">第一段</span><br><span class="line"></span><br><span class="line">第二段</span><br></pre></td></tr></table></figure>
+
+<p>内容</p>
+<p>第一段</p>
+<p>第二段</p>
+<h1 id="3">换行语法</h1>
+
+<p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(<code>&lt;br&gt;</code>)。<br>语法</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">第一行  </span><br><span class="line">第二行</span><br></pre></td></tr></table></figure>
+<p>内容</p>
+<p>第一行<br>第二行</p>
+<h1 id="4">强调语法</h1>
+
+<table>
+<thead>
+<tr>
+<th>语法</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>**粗体**</code></td>
+<td align="center"><strong>粗体</strong></td>
+</tr>
+<tr>
+<td><code>__粗体__</code></td>
+<td align="center"><strong>粗体</strong></td>
+</tr>
+<tr>
+<td><code>*斜体*</code></td>
+<td align="center"><em>斜体</em></td>
+</tr>
+<tr>
+<td><code>_斜体_</code></td>
+<td align="center"><em>斜体</em></td>
+</tr>
+<tr>
+<td><code>***粗斜体***</code></td>
+<td align="center"><em><strong>粗斜体</strong></em></td>
+</tr>
+<tr>
+<td><code>___粗斜体___</code></td>
+<td align="center"><em><strong>粗斜体</strong></em></td>
+</tr>
+<tr>
+<td>最好用 <code>*</code> 而不是 <code>_</code></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h1 id="5">引用语法</h1>
+
+<p>引用块，段落前加 <code>&gt;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 引用</span><br></pre></td></tr></table></figure>
+<p>内容</p>
+<blockquote>
+<p>引用</p>
+</blockquote>
+<p>多个段落引用</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 引用</span><br><span class="line">&gt; </span><br><span class="line">&gt; 引用</span><br></pre></td></tr></table></figure>
+<p>内容</p>
+<blockquote>
+<p>引用</p>
+<p>引用</p>
+</blockquote>
+<p>嵌套引用</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; 引用</span><br><span class="line">&gt;&gt; 引用</span><br></pre></td></tr></table></figure>
+<p>内容</p>
+<blockquote>
+<p>引用</p>
+<blockquote>
+<p>引用</p>
+</blockquote>
+</blockquote>
+<h1 id="6">列表语法</h1>
+
+<p>有序列表语法</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 第一章</span><br><span class="line">2. 第二章  </span><br><span class="line">3. 第三章</span><br></pre></td></tr></table></figure>
+<p>内容</p>
+<ol>
+<li>第一章</li>
+<li>第二章</li>
+<li>第三章</li>
+</ol>
+<p>无序列表语法</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- 一</span><br><span class="line">* 二</span><br><span class="line">+ 三</span><br><span class="line">  -四</span><br></pre></td></tr></table></figure>
+<p>内容</p>
+<ul>
+<li>一</li>
+</ul>
+<ul>
+<li>二</li>
+</ul>
+<ul>
+<li>三<ul>
+<li>四</li>
+</ul>
+</li>
+</ul>
+<h1 id="7">代码语法</h1>
+
+<p>语法</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`代码`</span><br></pre></td></tr></table></figure>
+<p>内容<br><code>代码</code></p>
+<p>语法<br><code>```</code><br><code>代码</code><br><code>```</code><br>内容  </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">代码</span><br></pre></td></tr></table></figure>
+
+<p>需要在代码内包含 <code>`</code>， 需要用 <code> </code> ``</p>
+<h1 id="8">分割线语法</h1>
+
+<p>单独一行上使用三个或多个星号 (<code>***</code>)、破折号 (<code>---</code>) 或下划线 (<code>___</code>) ，并且不能包含其他内容</p>
+<h1 id="9">链接语法</h1>
+
+<p>语法</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">链接[必应](http://bing.com)</span><br></pre></td></tr></table></figure>
+<p>内容<br>链接<a target="_blank" rel="noopener" href="http://bing.com/">必应</a></p>
+<p>语法</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;bing.com&gt;</span><br></pre></td></tr></table></figure>
+<p>内容<br><a target="_blank" rel="noopener" href="http://bing.com/">http://bing.com</a></p>
+<p>链接引用内容<br>语法</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[引用内容][1]</span><br><span class="line"></span><br><span class="line">正文</span><br><span class="line"></span><br><span class="line">[1]: 引用文章或链接</span><br></pre></td></tr></table></figure>
+<p>内容  </p>
+<p><a href="linka">引用内容</a></p>
+<p>正文</p>
+<h1 id="2">生成目录及页面内跳转</h1>
 
 <p>在目录处</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">* [第一章](#1)</span><br><span class="line">  * [第一章第一节](#1.1)</span><br></pre></td></tr></table></figure>
